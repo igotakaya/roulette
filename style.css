@@ -129,16 +129,20 @@ dl dd {
   text-align: right;
   margin-right: 1rem;
 }
-
 footer {
   text-align: center;
-  background-color: #00acee;
-  height: 6rem;
+  height: 2rem;
   width: 100%;
   position: absolute;
   bottom: 0;
-}
+  .copy{
+    background-color: $caption;
+    margin: 0 auto;
+    width: 90%;
+  }
 
+  
+}
 @media (min-width: 768px) {
   #app .arrow {
     max-width: 5rem;
