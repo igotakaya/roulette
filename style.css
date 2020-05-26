@@ -59,6 +59,7 @@ a:hover {
   position: relative;
   margin: 0 auto;
   text-align: center;
+  margin-top:1rem;
 }
 
 .arrow {
