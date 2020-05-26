@@ -103,6 +103,7 @@ dl {
   min-width: 20rem;
   max-width: 25rem;
   margin: 0 auto;
+  margin-top:1.5rem;
 }
 
 dl dt {
