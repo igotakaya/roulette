@@ -155,4 +155,13 @@ footer .copy {
     top: -2rem;
   }
 }
+
+
+@media (min-width: 896px)and(orientation:landscape) {
+
+
+  #app {
+    display: flex;
+  }
+ }
 /*# sourceMappingURL=style.css.map */
