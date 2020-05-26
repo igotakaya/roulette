@@ -134,14 +134,11 @@ footer {
   width: 100%;
   position: absolute;
   bottom: 0;
-  background-color: $caption;
-  
-  }
+  background: #00acee;
+}
 
-footer .copy{
-    
-    margin: 0 auto;
-    width: 90%;
+footer .copy {
+  margin: 0 auto;
 }
 @media (min-width: 768px) {
   #app .arrow {
