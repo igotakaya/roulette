@@ -58,7 +58,7 @@ a:hover {
   width: 100%;
   position: relative;
   margin: 0 auto;
-  margin-top: 6rem;
+  margin-top: 2rem;
   text-align: center;
 }
 
@@ -135,13 +135,13 @@ footer {
   width: 100%;
   position: absolute;
   bottom: 0;
-  .copy{
+  
+  }
+
+footer .copy{
     background-color: $caption;
     margin: 0 auto;
     width: 90%;
-  }
-
-  
 }
 @media (min-width: 768px) {
   #app .arrow {
