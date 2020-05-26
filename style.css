@@ -134,11 +134,12 @@ footer {
   width: 100%;
   position: absolute;
   bottom: 0;
+  background-color: $caption;
   
   }
 
 footer .copy{
-    background-color: $caption;
+    
     margin: 0 auto;
     width: 90%;
 }
