@@ -142,6 +142,8 @@ footer .copy {
   margin: 0 auto;
 }
 @media (min-width: 768px) {
+  #app {
+    margin-top:6rem;
   #app .arrow {
     max-width: 5rem;
     top: -16.5rem;
