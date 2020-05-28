@@ -25,7 +25,7 @@ h4,
 h5 {
   margin: 0;
   padding: 0;
-  counter-reset: #00acee;
+  color: #00acee;
 }
 
 img {
@@ -58,8 +58,8 @@ a:hover {
   width: 100%;
   position: relative;
   margin: 0 auto;
+  margin-top: 1rem;
   text-align: center;
-  margin-top:1.5rem;
 }
 
 .arrow {
@@ -98,30 +98,29 @@ a:hover {
   left: 1px;
 }
 
-dl {
+.discription dl {
   border: #7e8e9b solid 2px;
   min-width: 20rem;
   max-width: 25rem;
   margin: 0 auto;
-  margin-top:1.5rem;
+  margin-bottom: 2rem;
 }
 
-dl dt {
+.discription dl dt {
   float: left;
   margin-left: 1rem;
-  color: #7e8e9b;
 }
 
-dl dt img {
+.discription dl dt img {
   width: 2rem;
 }
 
-dl dt .follow {
+.discription dl dt .follow {
   width: 3rem;
   margin-bottom: 0.5rem;
 }
 
-dl dd {
+.discription dl dd {
   color: #ffffff;
   font-size: 0.5rem;
   height: 2rem;
@@ -129,6 +128,7 @@ dl dd {
   text-align: right;
   margin-right: 1rem;
 }
+
 footer {
   text-align: center;
   height: 2rem;
@@ -141,9 +141,23 @@ footer {
 footer .copy {
   margin: 0 auto;
 }
-@media (min-width: 768px) {
- 
-  
+
+@media (orientation: landscape) and (max-width: 767px) {
+  .button {
+    position: relative;
+    left: 12rem;
+    top: -5rem;
+  }
+  .discription {
+    position: relative;
+    top: -15rem;
+  }
+}
+
+@media (min-width: 996px) {
+  #app {
+    margin-top: 6rem;
+  }
   #app .arrow {
     max-width: 5rem;
     top: -16.5rem;
@@ -155,22 +169,8 @@ footer .copy {
   }
   .discription {
     position: relative;
-    top: -2rem;
+    top: -15rem;
+    left: 10rem;
   }
-
-}
-
-2
-3
-4
-5
-6
-@media (orientation: landscape) and (max-width: 767px){
-  .button 
-  {
-    margin-top: 0;
-    
-  }
-
 }
 /*# sourceMappingURL=style.css.map */
