@@ -5,9 +5,6 @@
 
   startButton.addEventListener("click", () => {
     startButton.style.pointerEvents = "none";
-    startButton.style.position ='relative'; 
-    startButton.style.top =1 +'px'; 
-    startButton.style.left = 1 +'px'; 
     startButton.style.opacity = 0.5; 
 
     deg = Math.floor(5000 + Math.random() * 5000);
@@ -24,9 +21,6 @@
     startButton.style.pointerEvents = "auto";
 
 
-    startButton.style.position ='relative'; 
-    startButton.style.top =0 +'px'; 
-    startButton.style.left =0 +'px'; 
     startButton.style.opacity = 1;
 
 
